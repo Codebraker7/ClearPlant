@@ -1,0 +1,460 @@
+/* Light - #feffdb */
+/* Mustard - #ffc60b */
+/* Orange - #ff8b00 */
+/* Grey - #444444 */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* HOME */
+.home{
+  width: 100%;
+  height: 100vh;
+}
+
+/* HEADER */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 11vh;
+  background-color: #444444;
+  padding: 10px 40px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 100px;
+  margin: 0 100px;
+}
+
+.header .navigation{
+  list-style: none;
+}
+
+.header,.navigation ul{
+  margin-right: 150px;
+}
+
+.header .navigation ul li{
+  display: inline-block;
+}
+
+.header .navigation ul li a{
+  border-radius: 150px;
+  padding: 10px 20px;
+  margin: 0 20px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header .navigation ul li a:hover {
+  background-color: #444444;
+  color: #ffc60b;
+}
+
+.header .navigation ul li button{
+  border-radius: 150px;
+  border: 0;
+  padding: 10px 20px;
+  margin: 0 20px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #444444;
+}
+
+.header .navigation ul li button:hover {
+  color: #ffc60b;
+  cursor: pointer;
+}
+
+/* LANDING */
+
+.landing{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 50px 50px;
+}
+
+.landing .left-panel{
+  padding: 30px 50px;
+}
+
+.landing h1{
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.landing p{
+  font-size: 1.7rem;
+}
+
+.landing img{
+  margin: 0 20px;
+  height: 40rem;
+  width: 35%;
+}
+
+.landing .right-panel{
+  height: 40rem;
+  width: 10%;
+  align-items: top;
+  margin: 0 70px 0 30px;
+}
+
+.landing .right-panel .img1{
+  height: 75%;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.landing .right-panel .logo{
+  height: 20%;
+  width: auto;
+  border-radius: 50%;
+  margin: 20 50px;
+}
+
+/* SERVICES */
+#services .services-section{
+  font-size: 2rem;
+  display: flex;
+  color: black;
+  height: 8rem;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#services .services-desc {
+  margin: 75px auto 75px auto;
+  width: 50%;
+  text-align: left;
+}
+
+#services .services-desc .service1{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+#services .services-desc .service1 img{
+  width: 15rem;
+  height: 15rem;
+  float: left;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+#services .services-desc .service2{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+#services .services-desc .service2 img{
+  width: 15rem;
+  height: 15rem;
+  float: right;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+/* CONTACT */
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px;
+  background-color: #444444;
+}
+
+/* Styling for the left partition */
+.contact-section .left-partition {
+  padding: 10px;
+  margin: 0 100px 0 150px;
+  width: 20%;
+  height: 100%;
+}
+
+.contact-section .left-partition .logo {
+  height: 10rem;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.contact-section .left-partition .phone-numbers p {
+  margin: 50px 20px 0 20px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.contact-section .left-partition .phone-numbers p .icon{
+  margin-right: 10px;
+  color: #ffc60b;
+}
+
+.contact-section .left-partition .address{
+  margin: 40px 20px;
+}
+
+.contact-section .left-partition h2{
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #ffc60b;
+}
+
+.contact-section .left-partition .address p{
+  font-size: 1.25rem;
+  margin-top: 0;
+  line-height: 25px;
+  color: #fff;
+}
+
+/* Styling for the middle partition */
+.contact-section .middle-partition {
+  padding: 10px;
+  margin: 0 50px 0 2px;
+  width: 40%;
+  height: 100%;
+}
+
+.contact-section .middle-partition h2{
+  font-size: 3rem;
+  margin: 40px;
+  color: #ff8b00;
+}
+
+.contact-section .middle-partition ul {
+  list-style-type: none;
+  padding: 1 30px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.contact-section .middle-partition ul li {
+  margin-bottom: 40px;
+}
+
+.contact-section .middle-partition ul li a{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.contact-section .middle-partition ul li a:hover{
+  color: #ffc60b;
+}
+
+/* Styling for the right partition */
+.contact-section .right-partition {
+  padding: 30px;
+  background-color: #ffc60b;
+  margin: 0 100px;
+  height: 92%;
+  width: 20%;
+  text-align: center;
+}
+
+.contact-section .right-partition h2{
+  font-size: 2.25rem;
+}
+
+.contact-section .right-partition form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section .right-partition form .form-group {
+  margin-bottom: 10px;
+}
+
+.contact-section .right-partition form .form-group input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 75%;
+  font-size: 1.5rem;
+}
+
+.contact-section .right-partition form button {
+  padding: 10px 20px;
+  background-color: #ff8b00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  margin: 20px 0;
+  width: 80%;
+  height: 4rem;
+  font-size: 2rem;
+}
+
+.contact-section .right-partition form button:hover {
+  background-color: #feffdb;
+  color: black;
+}
+
+/* ABOUT PAGE */
+.about{
+  text-align: center;
+}
+.about h1{
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+.about h2{
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.about img{
+  width: 60%
+}
+
+.about .mid-panel h1{
+  width: 100%;
+  font-size: 4rem;
+  display: flex;
+  color: black;
+  height: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .mid-panel p{
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .mid-panel button{
+  padding: 10px 20px;
+  background-color: #ff8b00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  margin: 20px 0;
+  width: 30%;
+  height: 5rem;
+  font-size: 1.5rem;
+}
+
+.about .mid-panel .mission-link{
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  background-color: #ffc60b;
+  padding: 20px 60px;
+  border-radius: 20px;
+}
+
+.about .mid-panel .mission-link:hover{
+  background-color: #ff8b00;
+}
+
+/* WORKS */
+.work{
+  text-align: center;
+}
+.work h1{
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+.work .works-desc {
+  margin: 75px auto 75px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.work .works-desc .work1{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.work .works-desc .work1 img{
+  width: 15rem;
+  height: 15rem;
+  float: left;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.work .works-desc .work2{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.work .works-desc .work2 img{
+  width: 15rem;
+  height: 15rem;
+  float: right;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+/* MISSION */
+.mission{
+  text-align: center;
+}
+.mission h1{
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+.mission p{
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission .mission-imgs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+.mission .mission-imgs img{
+  height: 20rem;
+  width: 20rem;
+}
