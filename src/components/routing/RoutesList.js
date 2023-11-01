@@ -7,14 +7,12 @@ import { Route, Routes } from 'react-router-dom';
 
 const RoutesList = () => {
     return (
-        <div>
-            <Routes>
-                <Route exact path='/about' element={<About />} />
-                <Route exact path='/mission' element={<Mission />} />
-                <Route exact path='/work' element={<Work />} />
-                <Route path='*' element={<NotFound />} />
-            </Routes>
-        </div>
+        <Routes>
+            <Route exact path='/about' element={<About />} />
+            <Route exact path='/mission' element={<Mission />} />
+            <Route exact path='/work' element={<Work />} />
+            <Route path='*' element={<NotFound />} />
+        </Routes>
     );
 };
 
